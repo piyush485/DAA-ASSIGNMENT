@@ -25,9 +25,9 @@ int main()
     int count = 0;
     for(int i = 0 ; i < n ; i++ )
     {
+        count++;
         if(x == arr[i])
             break;
-        count++;
     }
     cout << "Number of comparisons: " << count;
     return 0;
